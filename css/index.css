@@ -1,0 +1,113 @@
+body {
+    background:#ddd;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 100vh; /* menyesuaikan dengan tinggi layar*/
+    height:100%;
+}
+
+.Carousel {
+    width:100%;
+    overflow:hidden;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    /* height: 100%; */
+}
+
+.header {
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Shojumaru";
+    color: lightgray;
+}
+
+.fab {
+    color: white;
+    padding: 5px;
+    background: darkgrey;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.fab:hover {
+    background: white;
+    color: gray;
+    
+}
+
+.navbar {
+    background: lightgray;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:flex;
+}
+
+.navbar-nav {
+    font-size: 20px;
+    font-family: "Ravi Prakash";
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.navbar-nav li a:hover {
+    background: lightslategray;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.dropdown-menu {
+    background: lightgray;
+}
+
+button {
+    font-family: "Ravi Prakash";
+    font-size: 20px;
+}
+
+.carousel-item img {
+    height: 550px;
+}
+
+.carousel-indicators {
+    background: rgba(128, 128, 128, 0.705);
+    bottom: 0;
+}
+
+.carousel-indicators img {
+    width: 10vw;
+    height: 7vw;
+    margin: 10px;
+    cursor: pointer;
+    opacity: 0.6;
+    border: 2px solid white;
+}
+
+.carousel-indicators img:hover {
+    opacity: 1;
+    border: 2px solid orange;
+}
+
+.footer {
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Ravi Prakash";
+    color: lightgray;
+    padding-top: 10px;
+}
